@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    background: #222222;
+}
+.container {
+    background: #2e2e2e;
+    padding: 50px;
+    max-width: 1400px;
+    margin: 70px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 4px solid #b73f1e;
+    font-family: sans-serif;
+}
+h1{
+    background: #2e2e2e;
+}
+h1, h2 {
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #b73f1e;
+}
+h2 {
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid #b73f1e;
+    padding: 0 0 10px;  
+    background: #3e3e3e;
+}
+p {
+    font-size: 14px;
+    text-align: center;
+    font-style: italic;   
+}
+.new-task-container {
+    text-align: center;
+}
+.box {
+    padding: 10px 15px;
+    border: 2px solid #ff724c;
+    border-radius: 5px;
+    background: #3e3e3e;
+    margin: 15px 0;
+}
+.todo-list {
+    float: left;
+    width: 46%;
+}
+.complete-list {
+    float: right;
+    width: 46%;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    padding: 10px;
+    border-bottom: 1px dotted #ff724c;
+    background: #3e3e3e;
+    padding: 15px;
+    color: #fff; 
+    font-size: 16px;
+}
+p,
+input, 
+label,
+button {
+    background: #3e3e3e;
+    color: #fff;
+    font-size: 16px;
+}
+input,
+button {
+    text-decoration: none;
+    border: 1px solid #ff724c;
+    padding: 5px 10px;
+}
+.delete {
+    float: right;
+}
